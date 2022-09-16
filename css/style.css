@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
+
+body {
+	font-family: "Open Sans", sans-serif ;
+	text-indent: 20px;
+	line-height: 1.5;
+	word-spacing: 10px;
+	text-align: justify;
+	padding: 50px;
+	/*--(1)---text-transform: lowercase;--*/
+}
+/*-(1)----в body text-transform: lowercase 
+			h2 text-transform: none;
+			відміна властивостей тега body--*/
+
+h1 {
+	font-size: 24px;
+	font-weight: 700;
+	/*-------тіп (регістр) літери (прописні або заглавні)
+	/*--text-transform: capitalize;--*/
+	/*--text-transform: lowercase;--*/
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	text-shadow: 3px -5px 5px #006eff, 10px -8px 5px #00ff08;
+
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: 700;
+	/*--(1)--text-transform: none;--*/
+}
+
+.content {
+	font-size: 14px;
+	color: #3b05fd;
+	text-decoration: underline;
+	text-indent: 50px;
+}
+
+/*--.text {
+	text-decoration: line-through;
+	text-decoration: overline;
+	text-decoration: underline;
+}--*/
+
+/*--.text {
+	text-align: center;
+	text-align: left;
+	text-align: right;
+}--*/
+
+/*.text {
+	color: #fd05bb;
+}
+
+div.text {
+	text-transform: uppercase;
+}
+
+.text.lesson {
+	font-size: 40px;
+}
+
+.text p {
+	text-decoration: underline;
+}
+
+.text > p {
+	color: #fc0303;
+} 
+
+.text ~ p {
+	text-transform: lowercase;
+	font-style: italic;
+}
+
+.text .lesson {
+	font-style: oblique;
+	text-transform: none;
+}*/
+
+.block {
+	background-color: #00ff08;
+	padding: 50px;
+	width: 600px;
+	margin: 50px;
+}
